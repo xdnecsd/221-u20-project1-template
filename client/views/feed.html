@@ -3,23 +3,27 @@
   <head>
     <title>FoxChatter Newsfeed</title>
     <meta charset="utf-8"/>
-
+    <link rel="stylesheet" type="text/css" href="/css/feed.css">
+    <link rel="stylesheet" type="text/css" href="/css/global.css">
   </head>
   <body>
     <header>
       <!--Site Name-->
-      FoxChatter
+      FoxChatter | NewsFeed 
       <!--MyMarist Portal-->
       <div id="portal_button">
-        
+        <img src="images/redfox.png" alt = "MyMarist Portal" id = "redfox" /> MyMarist
       </div>
     </header>
     <main>
-
+      <div id = "newsfeed"></div>
     </main>
     <footer>
-      <p id="site_info">Copyright &copy; 2020: Marist College est. 1929</p>
+      <span id="site_info">Copyright &copy; 2020: Marist College est. 1929    |</span>
+      <a href="/">|   Click to return to the homepage!</a>
     </footer>
 
+    <script src="/js/global.js"></script>
+    <script src="/js/feed.js"></script>
   </body>
 </html>
