@@ -3,24 +3,24 @@ document.getElementById('portal_button').addEventListener('click', event => {
   })
 
 let feedNumber1 = {
-  Title: 'New Marist',
-  Body: 'Marist gets new dining hall supplier!'
+  Title: 'Marist College Gets New Food Provider',
+  Body: 'Marist Gets New Pizza And Different Types Of ',
   linkUrl: 'https://www.marist.edu/',
-  imageUrl: '
+  imageUrl: '/images/news_pic.jpg'
 }
 
 let feedNumber2 = {
-  Title: 
-  Body: 
-  linkUrl: 
-  imageUrl: 
+  Title: 'The New York Knicks Finally Make The PlayOffs"',
+  Body: 'The New York Knicks made the playoffs then lost in the Eastern Conference Semifinals',
+  linkUrl: 'https://champsorchumps.us/team/nba/new-york-knicks#:~:text=The%20New%20York%20Knicks%20last,times%20in%20their%2074%20seasons.',
+  imageUrl: '/images/newyorkknicks.jpg'
 }
 
 let feedNumber3 = {
-  Title: 
-  Body: 
-  linkUrl: 
-  imageUrl: 
+  Title: 'This New Travel Baskebtall Team Is Taking Over New York And Texas',
+  Body: 'A Person named Cam Wilder made a team of amazing players and they keep winning the championship back to back',
+  linkUrl: 'https://www.ballertv.com/streams/rod-wave-elite-vs-tf-elite-20220903010631-jfcdng8',
+  imageUrl: '/images/travelteam.jpeg'
 }
 
 var currentStories = [feedNumber1, feedNumber2, feedNumber3]

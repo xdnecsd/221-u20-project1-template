@@ -1,9 +1,11 @@
 body {
-  background-image:url("/images/campus.png");
-  background-color: #cccccc;
-  background-repeat: no-repeat;
+	background-image: url("/images/campus.png");
+  background-repeat: no-repeat; 
+  background-color:azure;
+  background-position: center;
   background-size: cover;
 }
+
 
 #splash_title {
 	width: 100%;
@@ -14,12 +16,13 @@ body {
   text-align: center;
 }
 
+
 .menu_button {
 	background-color: rgba(255, 0, 0, 0.5);
     font-size: 28px;
     color: white;
     cursor: pointer;
-    text-align: center;
+    text-align: center;   
     user-select: none;
 }
 
@@ -27,4 +30,3 @@ body {
     border-radius: 12px;
     padding: 16px 20px;
 }
-
