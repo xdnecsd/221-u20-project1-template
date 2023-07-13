@@ -4,13 +4,13 @@ document.getElementById('portal_button').addEventListener('click', event => {
 
 let feedNumber1 = {
   Title: 'Marist College Gets New Food Provider',
-  Body: 'Marist Gets New Pizza And Different Types Of ',
+  Body: 'Marist Gets New Pizza And Different Types Of Food ',
   linkUrl: 'https://www.marist.edu/',
   imageUrl: '/images/news_pic.jpg'
 }
 
 let feedNumber2 = {
-  Title: 'The New York Knicks Finally Make The PlayOffs"',
+  Title: 'The New York Knicks Finally Make The PlayOffs',
   Body: 'The New York Knicks made the playoffs then lost in the Eastern Conference Semifinals',
   linkUrl: 'https://champsorchumps.us/team/nba/new-york-knicks#:~:text=The%20New%20York%20Knicks%20last,times%20in%20their%2074%20seasons.',
   imageUrl: '/images/newyorkknicks.jpg'
